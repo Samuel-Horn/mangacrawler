@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I downloaded this program yesterday and it work fine for the first 30 Mins and after that i keep getting an Error on every manga i try to download. I think if Manga Crawler was updated  from 1.3 to 1.4 or higher it would fix the error problem. Please fix the program with the errors and update the sever site list with more sites to choose from. Manga Fox and Starkana are always not working when going to the direct site.",
+    "LastUpdatedDate": "2014-09-10T07:23:21.32-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2014-09-10T07:23:21.32-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Errors on Load of Manga Crawler",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 28298
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

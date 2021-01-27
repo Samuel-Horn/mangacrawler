@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "fixed, new version 1.17 is available ",
+    "ClosedDate": "2012-03-02T12:11:41.73-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There is a bug when selecting multiple chapters for download.\r\nThe program will keep re-download the first chapter in the que. (The page count keeps going up like 34/20)\r\nThe next chapters are not downloaded at all (stay at \"WAITING\" indefinitely)\r\n\r\nBut if I select chapter then click download one-by-one, the queuing works OK.\r\n\r\nAnd \"ZIPPING\" should be \"ZIPPED\" to make it more understandable.\r\n\r\nThank you for your program.",
+    "LastUpdatedDate": "2012-03-02T12:11:41.73-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2012-03-01T23:02:22.26-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Multiple chapters download bug.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 28291
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

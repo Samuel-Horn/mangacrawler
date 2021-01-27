@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For some reason eventually my bookmarks from a specific server are erased. Whenever I get in the program when that happens the server whose bookmarks were erased has the space (that either tells how many manga the server has, if it errored or if it's loading) blank, which seems to happen when it's offline or something.\r\n\r\nIs there anyway to backup those bookmarks? Even if it's just copying a file that stores them. Thanks for reading.",
+    "LastUpdatedDate": "2014-07-16T07:15:20.907-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2014-07-16T07:15:20.907-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bookmarks being Erased",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 28297
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

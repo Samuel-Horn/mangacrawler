@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "when i was finish downloading the chapters and i will read now the files become jpg_token files and it cannot read!! please tell me how to fix this! ASAP!! this is what it looks like when i finish it!!",
+    "LastUpdatedDate": "2016-12-13T17:33:35.18-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2016-12-13T17:33:35.023-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "what happen?? when i was downloading chapters! the files become (jpg_token) what is this??",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 28304
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1624135,
+      "FileName": "ds.png",
+      "DownloadUrl": ".\\1624135"
+    }
+  ],
+  "Comments": []
+}

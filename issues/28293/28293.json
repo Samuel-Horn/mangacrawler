@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "e.g. saving as '3.jpg_v=11193381819' instead of 'jpg'. They work fine when you change the file extension but it's a bit annoying.",
+    "LastUpdatedDate": "2014-09-12T20:54:54.983-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2013-01-15T08:28:12.06-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MangaHere files save incorrectly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 28293
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I do think this needs to be fixed desperately. Although there is a not really programs out there to fix this. There is one you can use.\n\nMost programs try to clone the name all the way through...\nex...  wanting to change 20 of them such as 3.jpg_v=11193381819 and 4.jpg_v=11193381819 etc. etc. etc.\nWhen you try to mass change it... the problem is it ends up looking like this... 3.jpg  3.jpg(1) 3.jpg(2) and in no way does this solve the problem. \n\nFor  correct solution for now.. download the program Ant Renamer 2.10.. This program focuses on changing the file extensions of all files at once and not the name. \n\nYou simply open your Manga crawler folder while Ant Renamer is open. Click on the series you want to change and open that folder. So...   Manga crawler < Mangafox < Naruto < Naruto 0    (example)\n\nWhen in the Naruto 0 folder you will find all the individual pages that are named incorrectly... highlight then copy these and paste them into the Ant Renamer window.\n\nClick \"actions\" \n\nWhere it says \"replace extension by\" \nEnter  \"jpg\" cept without the apostrophes... (do not include the .)\n\nThe bottom will say \n\nCurrent name: 3.jpg_v=11193381819\nNew name: 3.jpg\n\nClick \"GO\" at the top once that is ready. This will change EVERY file in that folder at once. Or if you loaded multiple folders into Ant renamer you could do an entire series at once. \n\nWhen you go back to the Ex. Naruto folder... every thing you put into ant renamer will be listed as..\n\n1.jpg\n2.jpg\n3.jpg\n\nand they will be the viewable jpg images you are desiring.\n\nSo there you have it... fixing ALL of your required manga as easy as copy and paste then a simple click. \nFixed... tada... and takes you no time at all.",
+      "PostedDate": "2013-04-06T11:07:32.98-07:00",
+      "Id": 96230
+    },
+    {
+      "Message": "Actually If you want... lets say you downloaded a WHOLE MANGA...\n\nEx. all 626 chapters of naruto...\n\nWhen you go to Manga crawler > Mangafox (ex) > Naruto\n\nYou can stop there...\nDrag and drop the ENTIRE naruto folder... then do the above posted and change the extension to jpg... click go.. \n\nand tada... as many chapters fixed in one instant as you want.",
+      "PostedDate": "2013-04-06T11:18:37.757-07:00",
+      "Id": 96236
+    },
+    {
+      "Message": "For the Developer:\n\nThe Issue is in Page.cs, Line 148 (commit fb163d73e79c).\nThe GetExtension Method will not work due a specific ImageURL. In the stated example the Url looks like \"http://whatever.com/filename.jpg?v=AnIdentifierValue\"\n\nSo I suggest the best approach would be to implement another FileUtils Method which Split the URL by ? and take only the first index. Maybe it would need some more adjustment for other websites, but at least this would fix this specific one.\n\nHope this help for a bugfix.\nIf necessary I could try to help a bit in the programming\n",
+      "PostedDate": "2013-06-23T15:17:10.05-07:00",
+      "Id": 103885
+    }
+  ]
+}

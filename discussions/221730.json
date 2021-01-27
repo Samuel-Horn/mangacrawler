@@ -1,0 +1,130 @@
+[
+  {
+    "Id": "473813",
+    "ThreadId": "221730",
+    "Html": "<p>Hi AnuTom,</p>\r\n<p>at first thank you very much for your software, it's great :) I'm glad that somebody is developing an alternative to DomDomSoft Manga Download (http://domdomsoft.com/home/), that is the software I used until today for my manga download needs, so I hope that you will keep updating it :)</p>\r\n<p>I tested MC by the DDSMD user point of view, so I'd like to share with you some opinions.</p>\r\n<p>MC pro:</p>\r\n<p>- it's fast! and it loads manga lists on demand and automatically, not manually and sometimes like on DDSMD;</p>\r\n<p>- it lists tons of nice manga sites and some of these (like 1000manga) are updated more often than those ones on DDSMD! Example: last chapter of &quot;Sidooh&quot; listed in DDSMD is # 56, while in MC is #66.. whoa!</p>\r\n<p>&nbsp;</p>\r\n<p>MC cons / wishlist:</p>\r\n<p>- MC misses a &quot;zip chapters folders + rename it to cbz&quot; feature, so i have to do it manually (DDSMD contains this feature);</p>\r\n<p>- MC misses the ability to set the number of concurrent downloads;</p>\r\n<p>- a primitive way to bookmarks manga could be a nice add in ;)</p>\r\n<p>&nbsp;</p>\r\n<p>I hope this post will be useful to you! Please keep coding this cool app :)</p>\r\n<p>-numbw</p>",
+    "PostedDate": "2010-07-28T11:13:14.067-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "474943",
+    "ThreadId": "221730",
+    "Html": "<p>- MC always show updated chapters list, because it parsing html pages</p>\r\n<p>- cbz, bookmarks - i will look at this</p>\r\n<p>- concurrent downloads - but only from diffrent hosts</p>",
+    "PostedDate": "2010-07-30T17:36:07.597-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "476559",
+    "ThreadId": "221730",
+    "Html": "thx :)",
+    "PostedDate": "2010-08-04T11:48:32.083-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "517672",
+    "ThreadId": "221730",
+    "Html": "\r\n<p>this is a great job.</p>\r\n<p>but i'm still a user of domdomsoft manga downloader because it has spanish sites as well.</p>\r\n<p>if is not much trouble, can you add at least:</p>\r\n<p><a href=\"http://animextremist.com/mangas.htm\">http://animextremist.com/mangas.htm</a></p>\r\n<p><a href=\"http://submanga.com/series\">http://submanga.com/series</a></p>\r\n<p>&aacute;ctually, don't rename zipped files to cbr</p>\r\n<p>i agree that a bookmarks or other feature for remember the downloaded mangas will be usefull.</p>\r\n<p>thanks again for your work.</p>\r\n",
+    "PostedDate": "2010-11-05T05:47:53.057-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "842647",
+    "ThreadId": "221730",
+    "Html": "<p>With the additions of the bookmarks and chapter compression the tool became really awesome and my favourite!</p>\r\n<p>&nbsp;</p>\r\n<p>It wood be great to add an option to delete the chapter folder after the chapter is downloaded and compressed (of course only if compressed)</p>\r\n<p>&nbsp;</p>\r\n<p>And it seems i'm having a little trouble with the zipped chapters.</p>\r\n<p>The MangaReader under Win7 shows the pages ordered as 1,10,11,12,13,2,3,4,5,... not in the correct order. (On my Androidtablet, it is working correct ...)</p>\r\n<p>It would be great to add an additional page naming strategy like \"trim to three digits\" (images will be named like 001,002,034,055,234,...).</p>\r\n<p>&nbsp;</p>\r\n<p>Did those chances locally for me, and if you're short on time i can upload the changes into a fork.</p>",
+    "PostedDate": "2012-05-30T10:13:05.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "842752",
+    "ThreadId": "221730",
+    "Html": "<p>If you have done that already so please make a fork. I'll look at those changes.</p>",
+    "PostedDate": "2012-05-30T12:18:47.04-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "847410",
+    "ThreadId": "221730",
+    "Html": "<p>have also added a crawler for MangaStream on my fork</p>",
+    "PostedDate": "2012-06-11T04:58:25.157-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "847656",
+    "ThreadId": "221730",
+    "Html": "\r\n<div dir=\"ltr\">\r\n<div style=\"font-family:'Arial'; color:#000000; font-size:10pt\">\r\n<div>thanks for your contributions</div>\r\n<div></div>\r\n<div>shame to say, I was unaware of your previous fork commit, and I written myself requested by you features. But I have reviewed your changes and they are quite similar. So I plan to keep mine, with some code from your.\r\n</div>\r\n<div></div>\r\n<div>Now, that you not think I don't read your code:</div>\r\n<div></div>\r\n<div>[YAXNode(&quot;DeleteChapterFolderAfterCompress&quot;)] - need something like this [YAXNode(&quot;DeleteDirWithImagesWhenCBZ&quot;, Default = false)]</div>\r\n<div>so old xml will read. Didn't you get any exception with new code ?</div>\r\n<div></div>\r\n<div>Instead new naming strategy I have added new checkbox which allow padding with zeros.\r\n</div>\r\n<div></div>\r\n<div>And numbers of zeros always based on pages count. </div>\r\n<div></div>\r\n<div>Your code: </div>\r\n<div></div>\r\n<div>if (Index &gt; 99) </div>\r\n<div>return Index.ToString();</div>\r\n<div>else if (Index &gt; 9)</div>\r\n<div>return String.Format(&quot;0{0}&quot;, Index);</div>\r\n<div>else </div>\r\n<div>return String.Format(&quot;00{0}&quot;, Index);</div>\r\n<div></div>\r\n<div>Mine: </div>\r\n<div></div>\r\n<div>if (DownloadManager.Instance.MangaSettings.PadPageNamesWithZeros)</div>\r\n<div>index = index.PadLeft(a_pages.ToString().Length, '0');</div>\r\n<div></div>\r\n<div>When there are lets say 500 pages your code just generate: 001,02...009,010,011,...,099,100,</div>\r\n<div>When there are 99 pages you generate: 001,02...009,010,011,...,099</div>\r\n<div></div>\r\n<div>Instead my code in latter case generate 01, 02, 11, 99</div>\r\n<div></div>\r\n<div>Still I don't know if I really should only pad or pad always to 000. And what when there are 1200 pages ?</div>\r\n<div></div>\r\n<div>And about clearing folder after zipping. </div>\r\n<div></div>\r\n<div>Your code: </div>\r\n<div></div>\r\n<div>// delete zipped chapter</div>\r\n<div>try </div>\r\n<div>{</div>\r\n<div>if (DownloadManager.Instance.MangaSettings.DeleteChapterFolderAfterCompress)</div>\r\n<div>if (State != ChapterState.Error)</div>\r\n<div>dir.Delete(true);</div>\r\n<div>}</div>\r\n<div>catch (Exception ex) </div>\r\n<div>{</div>\r\n<div>Loggers.MangaCrawler.Error(String.Format(</div>\r\n<div>&quot;Exception, chapter: {0} state: {1}&quot;, this, State), ex);</div>\r\n<div>}</div>\r\n<div></div>\r\n<div>I strongly encourage to not delete whole folder without moving it to recycle bin. You need to know how stupid users can be. Instead we should delete all our images and delete folder only when its empty. And why not puts this code in upper try catch block</div>\r\n<div></div>\r\n<div>As for Manga Stream crawler, do you plan to make some tests :) in MangaCrawlerTest ?</div>\r\n<div></div>\r\n<div>I know this is tedious work but important one. If so try to test some finished chapters and some ongoings, there are often some diffrences when you click on last image of series, if you can click it at all.\r\n</div>\r\n<div></div>\r\n<div>Second, try to run _RandomTestAll, remove all other crawlers except your, keep it for few hours, analyze errors (stop test, see test results),\r\n</div>\r\n<div>and so on as you will be sure you can handle most on strange and stupid things.\r\n</div>\r\n<div></div>\r\n<div>Try to look for licensed series, adult series, series with volumes (one more level in tree structure), try if it's possible to remove empty series,\r\n</div>\r\n<div></div>\r\n<div>Surprisingly this tool should be used by owners of services to find errors, chapters without images, etc.</div>\r\n<div></div>\r\n<div>By the way how you get xpath from html, what tool you are using for it.</div>\r\n<div></div>\r\n<div>And last, but this will be my job, catalog needs some rewriting to be ready for new crawlers.</div>\r\n<div></div>\r\n<div>Well I have looked on manga stream www and its really simple, nonenthles some test are required.\r\n</div>\r\n<div></div>\r\n<div>Currently I plan to integrate your work, check all services, and repair broken one and release maintance release</div>\r\n<div></div>\r\n<div><font size=\"2\" face=\"Arial\"></font></div>\r\n</div>\r\n</div>\r\n",
+    "PostedDate": "2012-06-11T14:40:05.583-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "847671",
+    "ThreadId": "221730",
+    "Html": "<p>Hehe, no problem at all, my fault for forgetting to sent a pull request :)</p>\r\n<p>Also i have no problems if you keep your code! I only suggested this because a friend of mine thougt it would be nice to share the addidtional features to more people.&nbsp;I'm still counting me as a beginner in c#, so i was mentally prepared for this :P</p>\r\n<p>No Exceptions/Problems with the YAXNodes on my side.</p>\r\n<p>About the padding, it was faster and easier for me to implement the simple three digit method, of course it is better to pad to the number of pages (though i doubt there are chapters with over 999 pages xD)</p>\r\n<p>The catalogue probably really needs a rewrite, when a new crawler is added bookmarks and downloaded chapters are smashed.</p>\r\n<p>&nbsp;</p>\r\n<p>For my xpath queryies, i used the HAP Explorer that is offered on the HTMLAgilityPack site (<a href=\"http://htmlagilitypack.codeplex.com/releases/view/44954\">http://htmlagilitypack.codeplex.com/releases/view/44954</a>)</p>\r\n<p>Probably not the best one, but it worked for me (complex queries often freeze the tool for some seconds)</p>\r\n<p>&nbsp;</p>\r\n<p>Oh, the newly added MangaEdenCrawler (english only, no adult), still has at least one bug, (first chapter of a series will fail downloading. Was a bit too quick with pushing to rep) i'll try the testing unit on it after i have taken some hours of sleep.</p>\r\n<p>The ME was probably the last Crawler addition from me and with it this tool has all sites i need :)</p>",
+    "PostedDate": "2012-06-11T15:38:08.32-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "902410",
+    "ThreadId": "221730",
+    "Html": "\r\n<p>Would be great if you can add support for</p>\r\n<p>&#43; FoOlSlide (http://foolrulez.github.com/FoOlSlide/ example: http://foolrulez.org/slide/reader/)</p>\r\n<p>and older version</p>\r\n<p>&#43; FoOlReader (https://github.com/woxxy/FoOlReader example: http://sakicow.com/reader/)</p>\r\n<p>Then users would add pages based on them to Manga Crawler be hand.</p>\r\n<p>More FoOl* sites: http://slide.extrascans.net/ , http://manga.redhawkscans.com/reader/ , http://reader.imperialscans.com/reader/ etc.</p>\r\n<p>&#43; Batoto</p>\r\n<p>&nbsp;</p>\r\n<p>* Check if there is newer version of Manga Crawler</p>\r\n<p>* Option to hide unwanted servers from list</p>\r\n<p>&nbsp;</p>\r\n<p>Best regards</p>\r\n",
+    "PostedDate": "2012-08-22T01:30:28.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1004811",
+    "ThreadId": "221730",
+    "Html": "Hi, firstly - great app, but I'm writing to ask about that zero padding. Will it be implemented soon? It'd be extremely useful option, even with just 3 digits (pages and chapters), especially for e-books readers converting.<br />\n",
+    "PostedDate": "2013-02-21T10:46:25.637-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1042443",
+    "ThreadId": "221730",
+    "Html": "Hey  tomanu, this app rocks me!!! in addition, i would like to suggest some feature :<br />\n<ul>\n<li>log and actual image-url viewer so that in case error occured user can manage to fix it themselfs</li>\n<li>download option- i believe this apps functionality is to download manga, right?? so why don't you include option that exist on download manager like IDM, that would be great!!!!</li>\n<li>can you port this app to c/c++ and make it independend from any framework??</li>\n</ul>\n",
+    "PostedDate": "2013-05-12T07:34:49.243-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1318398",
+    "ThreadId": "221730",
+    "Html": "Cool app ,but there are a lot of errors.\r<br />\nAnimea ,Kissmanga ,Manga Fox ,Manga Here,Manga Reader ,Manga Volume and Starkana do not work ,could you fix them please :)<br />\n",
+    "PostedDate": "2014-11-02T08:15:53.177-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1324361",
+    "ThreadId": "221730",
+    "Html": "Why does download newers before olders?\r<br />\nWhen i want to download a manga i want to star reading it from the beginning.<br />\n",
+    "PostedDate": "2014-11-20T09:35:09.307-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1345141",
+    "ThreadId": "221730",
+    "Html": "plz add\r<br />\n<a href=\"http://bato.to/\" rel=\"nofollow\">http://bato.to/</a> to the list<br />\n",
+    "PostedDate": "2015-01-22T08:50:21.08-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1434969",
+    "ThreadId": "221730",
+    "Html": "hope that the downloaded manga folder and rename it like naruto[001], naruto[002], and so on, I like to arrange my folder in that way.. :)<br />\n",
+    "PostedDate": "2015-07-18T20:58:21.75-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

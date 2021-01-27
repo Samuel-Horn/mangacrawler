@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Attempting to launch the application causes a popup window with the error \"A device attached to the system is not functioning.\"\r\n\r\nThe application worked fine the first time it was installed and run.  Uninstalling and reinstalling makes no difference.  It seems to be system error code #31 (ERROR_GEN_FAILURE) from somewhere up the .net stack?",
+    "LastUpdatedDate": "2014-09-12T20:54:57.603-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2013-06-18T21:34:24.153-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Generic error on launch",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 3,
+    "Id": 28294
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

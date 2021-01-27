@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Okey v1.3 errors and can't get the data in the ff. website\r\n\r\n-animea (ERROR)\r\n-kissmanga (ERROR)\r\n-manga fox (ERROR)\r\n-manga here (ERROR)\r\n-manga reader (ERROR)\r\n-starkana (ERROR)\r\n\r\n\r\nthanks ",
+    "LastUpdatedDate": "2014-09-12T20:55:00.1-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2014-02-03T06:24:15.83-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "(ERROR)cannot get count/data from website",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 3,
+    "Id": 28295
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

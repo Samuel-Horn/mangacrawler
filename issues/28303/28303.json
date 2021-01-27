@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi.\r\n\r\nFirst let me tell you good job for this program it has been working great when I first downloaded it. However, since a few months ago, it was starting to be a pain to get the download working properly. I mostly use Manga Fox and Manga Here as source for my download. A few months back Manga Fox just got deleted from my bookmark list, when trying to download from it I kept getting error. Now it's back, all my volumes are on bookmark, but I keep having this \"Error\" problem. This time however it's on both sites. It starts downloading and after 1-10 pages it just stops and shows error.\r\n\r\nI am not a but wiz kid about this programming stuff and I'm sure it takes alot of your time, but if you could look into this I'm sure a lot of people would be glad. \r\n\r\nKeep up the good work!",
+    "LastUpdatedDate": "2017-05-30T22:20:11.687-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2015-07-26T13:10:33.763-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Keep getting error",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 28303
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

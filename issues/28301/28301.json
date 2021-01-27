@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "__#List of Issues of Manga Crawler v1.3:__ \r\n* Consistent \"ERROR\" (in red text) next to \"Animea\" source.\r\n* Constant DL lag (slow downloading).\r\n* \"ERROR\" (in red text) next to attempted chapter downloads from \"KissManga\", \"Manga Here\", \"Manga Fox\", as well as others (but not all the time).\r\n* Takes too long to cancel a single, if not multiple, chapter/volume download(s).\r\n* Reload button doesn't always reload the source, sometimes makes you wait for more that 30mins.\r\n\r\nIt was working just fine about 32hrs ago. I have great internet service with high DL and high UL. I've tried resetting/restarting my router and such, even deleting caches, internet history (cache, browser history, DL history, etc.) but, to no avail. I really enjoy this program and would hate to permanently uninstall it and keep it off my PC and go for a different manga downloading client/source. Please make a fix or update v1.3?\r\n\r\nArigatou gozaimasu,\r\n\"Rew Champuru (Champloo)\"",
+    "LastUpdatedDate": "2015-03-19T04:35:18.49-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2015-03-13T21:25:03.663-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Consistant DL Lag and \"ERROR\" Details",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 28301
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have been having the same problems for a month.\n\nAnother problem I have from all servers (mostly mangahere since it's the one I follow most, but others too), some of the downloaded images have download errors, like when back in the days of dial modem connections an image loaded slowly by lines, and some were missing. Also a cloud of dots, sometimes over all the page, or just from halfway down.\nLooks very random, since if I download the same chapter again, usually the wrong pages are different. But on the avergae, about a third of the images have problems.\n",
+      "PostedDate": "2015-03-19T04:35:18.49-07:00",
+      "Id": 179574
+    }
+  ]
+}

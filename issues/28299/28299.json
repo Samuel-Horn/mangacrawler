@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "____The god damn manga crawler downloader has been down for over a week now someone needs to get off there lazy asses and fix the damn thing. It keeps coming up with an error on every F****** site i click on when tiring to download. Please Fix the F****** thing. I though by using the manga crawler it would make my life easier with  not having to hunt down and download each chapter from multiple sites everyday a new chapter gets released but all this damn thing does is piss me off with having consistent Error everyday. PLEASE FIX THE MANGA DOWNLOAD PROGRAM ASAP. ____ \r\n\r\n",
+    "LastUpdatedDate": "2014-09-14T10:47:45.663-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2014-09-14T10:47:45.663-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Manga crawler is Down Fix Needed",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 28299
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "Id": "0",
+    "Name": "Manga Crawler 1.2",
+    "DevelopmentStatus": "Stable",
+    "Description": "Manga Crawler 1.2\n* new gui\n* local database for already downloaded things (except images)\n* bookmarks\n* autostart\n* minimize to tray\n* baloon notifications (when minimized about new bookmarked series)\n* few page naming strategies (see options)\n* new services: Animea, Manga Here, Manga Reader, \n\n\nManga Crawler 1.17\n* [url:http://mangacrawler.codeplex.com/workitem/28291] fixed\n* Manga Fox, Spectrum Nexus - fixed\n\nManga Crawler 1.16\n* GUI: some improper names - no html decoding, series search didn't work properly, some problems with reporting downloading progress.\n* fixed: manga fox, manga run, manga volume, otakuworks, ourmanga, spectrum nexus\n* Manga Toshokan removed\n* Bleach Exile renamed to Manga Access\n\nManga Crawler 1.15\n* fixed broken services (manga volume, manga fox, unix manga, manga share, spectrum nexus, manga run)\n* some gui controls didn't had proper anchors\n* new splitter - now visible, some minimal size for window and splitted panels, when you resize window you can't hide splitter\n* link to home page, new version text now pulse\n* file extensions are lowercase\n* directories are clear before downloading\n* improvment in gui (changing selection under mass load, remembering selection)\n\nManga Crawler 1.14\n* fixed broken services (stop tazmo, spectrum nexus, manga volume, manga fox)\n* newest chapters are always displaying on top\n* things now are processed much more in way they was clicked\n* delete button now should work much faster\n* gui updates are limited - usefull when you start many updates simultaneously\n* chapters will be downloaded always first, then series, and at least pages\n* fixed scrolling with mouse wheel when list is updating\n\nManga Crawler 1.13\n* fixed broken services\n* bug: possible deadlock removed\n* new service added: bleach exile\n\nManga Crawler 1.12\n* fixed broken services\n* GUI speed-up, specially with sites that have thousands of mangas\n* GUI is more reliable when you trying to download from many sites at the same time.\n\nManga Crawler 1.11\n* fixed broken sites\n* changes in GUI\n* concurrent downloads (up to for connection per site)\n* support for CBZ\n* internal: separe gui from code\n* internal: tests",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-05-01T05:02:50.933-07:00",
+    "Files": [
+      {
+        "Id": "75bd6118-7d13-41c4-9fa3-2381ae2669c1",
+        "FileName": "Manga Crawler 1.2.exe",
+        "Url": "./0/75bd6118-7d13-41c4-9fa3-2381ae2669c1",
+        "Type": "Application",
+        "UploadDate": "2012-05-01T05:00:25.417-07:00"
+      },
+      {
+        "Id": "967e0517-5c03-4a3a-8afe-d43babfb12de",
+        "FileName": "MangaCrawler 1.2 Sources.zip",
+        "Url": "./0/967e0517-5c03-4a3a-8afe-d43babfb12de",
+        "Type": "Source Code",
+        "UploadDate": "2012-05-01T05:02:48.527-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Manga Crawler 1.3",
+    "DevelopmentStatus": "Stable",
+    "Description": "* services list updated\n* fixed broken services",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-16T12:21:45.137-08:00",
+    "Files": [
+      {
+        "Id": "3e3883c8-3ad0-46aa-86d7-90593014a864",
+        "FileName": "Manga Crawler 1.3.exe",
+        "Url": "./1/3e3883c8-3ad0-46aa-86d7-90593014a864",
+        "Type": "Application",
+        "UploadDate": "2014-01-16T12:21:44.713-08:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Title says it ... it jams on 'waiting', then turns into 'error' without any visible reason given.\r\n\r\nCan assist with debugging if required, but odds are it's just due to them updating the site.",
+    "LastUpdatedDate": "2014-09-12T20:54:52.237-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2012-12-04T18:15:35.963-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MangaFox parsing broken",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 28292
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

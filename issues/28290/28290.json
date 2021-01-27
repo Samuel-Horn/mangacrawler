@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-03-02T12:13:15.653-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I can not load series list from BeachExile, Just comes up error",
+    "LastUpdatedDate": "2012-03-02T12:13:15.653-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "mangacrawler",
+    "ReportedDate": "2011-08-17T16:21:17.913-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "BleachExile",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 28290
+  },
+  "FileAttachments": [],
+  "Comments": []
+}
